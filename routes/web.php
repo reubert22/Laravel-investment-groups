@@ -13,8 +13,7 @@
 #Route::get('/', ['uses' => 'Controller@metodo']);
 Route::get('/', ['uses' => 'Controller@homepage']);
 Route::get('/cadastro', ['uses' => 'Controller@cadastrar']);
+
+//Routes to user login
 Route::get('/login', ['uses' => 'Controller@fazerLogin']);
 
-#Route::get('/', function () {
-#    return view('welcome');
-#});
