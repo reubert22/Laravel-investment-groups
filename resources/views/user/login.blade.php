@@ -10,11 +10,15 @@
         <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     </head>
     <body>
+
+        <div class="background">
+
+        </div>
         <section id="conteudo-view" class="login">
         <!-- blade syntax -->
             <h1>Investindo</h1>
             <h3>O nosso gerenciador de investimento</h3>
-
+ 
             {!! Form::open(['route' => 'user.login', 'method' => 'post']) !!}
                 
                 <p>Acesse o sistema</p>
@@ -27,7 +31,7 @@
                     {!! Form::password('password', ['placeholder' => "Senha"]) !!}
                 </label>
 
-                    {!! Form::submit('entrar') !!}
+                    {!! Form::submit('Entrar') !!}
 
             {!! Form::close() !!}
 

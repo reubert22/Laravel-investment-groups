@@ -13,6 +13,7 @@ class CreateUserSocialsTable extends Migration
      */
     public function up()
     {
+        /*
         Schema::create('user_socials', function (Blueprint $table) {
             $table->increments('id');
 
@@ -36,10 +37,12 @@ class CreateUserSocialsTable extends Migration
      * @return void
      */
     public function down(){
+        /*
         Schema::table('user_socials', function (Blueprint $table) {
             $table->dropForeign('user_socials_user_id_foreign');
             $table->dropForeign('user_socials_social_email_foreign');
         });
         Schema::dropIfExists('user_socials');
+        */
     }
 }
