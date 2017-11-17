@@ -11,7 +11,7 @@ class UserSocial extends Model{
     use Notifiable;
 
     public $timestamps = true;
-    protected $table = 'users';
+    protected $table = 'user_socials';
     protected $fillable = ['user_id', 'social_network', 'social_id', 'social_email', 'social_avatar'];
     protected $hidden = [];
 }

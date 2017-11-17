@@ -18,7 +18,6 @@ class DatabaseSeeder extends Seeder
             'phone'     => '973494545',
             'birth'     => '1996-08-17',
             'gender'    => 'M',
-            'notes'     => '',
             'email'     => 'reubert@reubert.com',
             'password'  => bcrypt('123456'),
         ]);
